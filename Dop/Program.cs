@@ -23,7 +23,13 @@ while(score < attempts)
         else
         {
             Console.WriteLine("Загаданное число больше вашего!)");
+            
         }
+        if(score == 2)
+            {
+                    Console.WriteLine("Вы не угадали загаданное число,увы !(");
+                    Console.WriteLine("Это было число - " + randomNumber);
+            }
     }
     else{
         Console.WriteLine("Вы угадали число, отлично!)");
